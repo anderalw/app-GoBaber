@@ -40,12 +40,12 @@ public class MainApplication extends Application implements ReactApplication {
     return mReactNativeHost;
   }
 
-  @Override
-  public void onCreate() {
-    super.onCreate();
-    SoLoader.init(this, /* native exopackage */ false);
-    initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
-  }
+  // @Override
+  // public void onCreate() {
+  //   super.onCreate();
+  //   SoLoader.init(this, /* native exopackage */ false);
+  //   initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
+  // }
 
   /**
    * Loads Flipper in React Native templates. Call this in the onCreate method with something like
